@@ -167,11 +167,10 @@ input[type=text], select, textarea {
 }
 
 input[type=submit]{
-	padding: 10px 30px;
+	color: #ffffff;
+	background: #4aaaa5;
+	padding: 10px 20px 10px 20px;
     font-size: 18px;
-    color: #ffffff;
-    cursor: pointer;
-    background: #4aaaa5;
     border: 0 none;
 }
 
