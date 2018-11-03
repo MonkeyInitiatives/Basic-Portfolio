@@ -1,14 +1,14 @@
 body {
+	color: #777777;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 18px;
 	line-height: 34px;
-	color: #777777;
 	background: url("../images/connectwork.png");
 }
-h1, h2, h3, {
+h1{
+	color: #4aaaa5;
 	font-family: Georgia, Times, "Times New Roman", serif;
 	font-weight: 700;
-	color: #4aaaa5;
 }
 
 .header{
@@ -38,7 +38,6 @@ h1, h2, h3, {
 }
 .mainContent{
 	clear: both;
-	/* position: fixed; */
 	margin: auto;
 	width: 100%;
 	max-width: 960px;
@@ -148,15 +147,13 @@ a:link, a:visited{
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin-bottom: 0;
-	/* font-weight: bold; */
 	line-height: 30px;
 	color: #ffffff;
 	text-align: center;
 	background: #4aaaa5;
 	border-bottom: 0;
 	font-family: Georgia, Times, "Times New Roman", serif;
-	/* font-weight: 700; */
-  }
+}
 
 input[type=text], select, textarea {
     width: 100%;
@@ -194,13 +191,3 @@ footer {
 	height: 50px;
 	font-size: 12px;
 }
-
-.Site {
-	display: flex;
-	min-height: 100vh;
-	flex-direction: column;
-  }
-  
-  .Site-content {
-	flex: 1;
-  }
